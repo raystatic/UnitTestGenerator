@@ -32,7 +32,7 @@ if (checkDependencies(gradleFilePath).not()) {
     throw Exception("Error: Required dependencies for unit testing are not added.")
 }
 
-val annotationRegex = Regex("""@$annotationName\s+(?:private|public|protected|internal)?\s*fun\s+(\w+)\(([^)]*)\):\s*(\w+)""")
+val annotationRegex = Regex("""@$annotationName\s+(?:private|public|protected|internal)?\s*(?:suspend\s+)?fun\s+(\w+)\(([^)]*)\)(?::\s*(\w+))?\s*""")
 
 val fileContent = sourceFile.readText()
 
