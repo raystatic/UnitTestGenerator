@@ -1,4 +1,4 @@
-# Unit Test Generator Script
+# Unit Test Boilerplate Generator Script
 
 This Kotlin script automates the boilerplate generation for unit tests based on annotated functions in a specified Kotlin source file. It scans the file for functions marked with a specified annotation and creates corresponding test functions in a designated test directory.
 
@@ -47,8 +47,8 @@ kotlin utgen.kt <annotation_name> <path_to_class>
 - Replace **<annotation_name>** with the custom annotation (e.g; `GenerateTest`)
 - Replace **<path_to_class>** with **absolute path** to the file.<img width="581" alt="Screenshot 2024-11-04 at 5 11 24 PM" src="https://github.com/user-attachments/assets/1d7e8f1c-8219-4653-aec4-70c9556edbc9">
 
-## Example of Generated Test File
-
+## Generated Test File
+**Example**: Generated tests will look like this
 ```kotlin
 /**
  * Unit tests for CalculatorTest.kt, which will execute on the development machine (host).
@@ -76,8 +76,8 @@ class CalculatorTest {
 }
 ```
 
-## Test file location
-The test file will be created in the test directory in the appropriate package structure
+**Location**: The test file will be created in the test directory in the appropriate package structure
+
 <img width="581" alt="Screenshot 2024-11-04 at 4 59 04 PM" src="https://github.com/user-attachments/assets/93460b75-8935-4385-9ed7-94b6db7110c8">
 
 ## License
