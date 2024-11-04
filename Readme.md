@@ -44,8 +44,7 @@ Run the script, using following command in terminal
 kotlin utgen.kt <annotation_name> <path_to_class>
 ```
 - **annotation_name**: Created annotation (e.g; GenerateTest)
-- **path_to_class**: Absolute path to the file for which unit test functions need to be created
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/31301266/382735766-bf9b95cf-f3aa-4c8b-a612-379517ac99ae.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241104T112305Z&X-Amz-Expires=300&X-Amz-Signature=a380fc4020c50640fa80e75a1e7ab827dcc34276bc60f7b85812b58a2bf3b109&X-Amz-SignedHeaders=host)
+- **path_to_class**: Absolute path to the file for which unit test functions need to be created<img width="581" alt="Screenshot 2024-11-04 at 5 11 24 PM" src="https://github.com/user-attachments/assets/1d7e8f1c-8219-4653-aec4-70c9556edbc9">
 
 ## Example of Generated Test
 
@@ -80,7 +79,7 @@ class CalculatorTest {
 
 ## Test file location
 The test file will be created in the test directory in the appropriate package structure
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/31301266/382737523-0b4ca9dd-c700-499b-9ad5-8c8377ab73c3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241104T112924Z&X-Amz-Expires=300&X-Amz-Signature=dca1f1314b57c7f6612503ffcb41c7d1140397326aabe64343ffdf87c5fe73bd&X-Amz-SignedHeaders=host)
+<img width="581" alt="Screenshot 2024-11-04 at 4 59 04 PM" src="https://github.com/user-attachments/assets/93460b75-8935-4385-9ed7-94b6db7110c8">
 
 ## License
 
