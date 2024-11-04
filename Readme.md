@@ -1,4 +1,4 @@
-# Unit Test Generator Script
+# Unit Test Boilerplate Generator Script
 
 This Kotlin script automates the boilerplate generation for unit tests based on annotated functions in a specified Kotlin source file. It scans the file for functions marked with a specified annotation and creates corresponding test functions in a designated test directory.
 
